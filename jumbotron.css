@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	scroll-behavior: smooth;
+}
+
+body {
+	padding-top: 3.5rem;
+}
+
+.navbar .navbar-nav {
+	float: none;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+}
+
+.navbar .navbar-collapse {
+	text-align: center;
+}

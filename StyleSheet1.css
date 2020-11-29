@@ -1,0 +1,388 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 50px;
+}
+
+.banner {
+    position: relative;
+    min-height: 100vh;
+    background: url(banner2.jpg);
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -50px 0px;
+}
+
+
+    .banner h2 {
+        font-size: 2em;
+        color: #fff;
+        font-weight: 500;
+        line-height: 1.5em;
+    }
+
+    .banner h3 {
+        font-size: 1.5em;
+        color: #fff;
+        font-weight: 500;
+        line-height: 1.5em;
+    }
+
+.btn {
+    position: relative;
+    background: blue;
+    display: inline-block;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+    border-radius: 20px;
+}
+
+.navbar .navbar-nav {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    height: 60px;
+    transition: 0.5s;
+}
+
+    header ul {
+        position: relative;
+        display: flex;
+        margin-left: 20px;
+    }
+
+        header ul li {
+            position: relative;
+            list-style: none;
+        }
+
+            header ul li a {
+                position: relative;
+                display: inline-block;
+                margin: 0 15px;
+                text-decoration: none;
+                color: #fff;
+                font-size: 20px;
+            }
+
+                header ul li a:hover {
+                    transform: scale(1.25);
+                }
+
+    header.sticky {
+        background: white;
+        padding: 10px 20px;
+    }
+
+        header.sticky ul li a {
+            color: #111;
+        }
+
+
+.sectionheading {
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+    .sectionheading h2 {
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentBx {
+    padding-right: 30px;
+}
+
+.contentBx {
+   
+}
+
+    .contentImage img {
+        width: 70%;
+        margin: 0px 50px;
+        border-radius: 20px;
+    }
+
+
+#imagecarousel h3 {
+    text-align: center;
+    margin: 30px;
+}
+
+.col-md-3 {
+    display: inline-block;
+    margin-left: -4px;
+}
+
+    .col-md-3 img {
+        width: 100%;
+        height: auto;
+    }
+
+body .carousel-indicators li {
+    background-color: black;
+}
+
+    body .carousel-indicators li.active {
+        background-color: red;
+    }
+
+body .carousel-indicators {
+    bottom: 0;
+    margin: -30px;
+}
+
+body .carousel-control-prev-icon,
+body .carousel-control-next-icon {
+    background-color: black;
+}
+
+body .no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.projects {
+    background-color: #111;
+    color: #fff;
+}
+
+    .projects .content {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+        .projects .content .servicesBx {
+            max-width: 40%;
+            text-align: center;
+            padding: 40px 20px;
+            background-color: black;
+            margin: 20px;
+            border-radius: 20px;
+            box-shadow: -6px -6px 20px rgba(255,255,255,1), 6px 6px 20px rgba(255,255,255,1);
+        }
+
+            .projects .content .servicesBx p {
+                font-size: 14px;
+            }
+
+            .projects .content .servicesBx img {
+                max-width: 100%;
+            }
+
+            .projects .content .servicesBx h2 {
+                font-weight: 500;
+                font-size: 25px;
+                margin-top: 10px;
+            }
+
+            .projects .content .servicesBx:hover {
+                box-shadow: inset -6px -6px 10px rgba(255,255,255,0.5), inset 6px 6px 20px rgba(255,255,255,0.5);
+            }
+
+            .projects .content .servicesBx a {
+                display: inline-block;
+                text-decoration: none;
+                color: white;
+                padding: 5px 10px;
+                margin-top: 20px;
+                border-radius: 20px;
+                box-shadow: -4px -4px 15px rgba(255,255,255,1), 4px 4px 15px rgba(255,255,255,1);
+            }
+
+                .projects .content .servicesBx a:hover {
+                    box-shadow: inset -4px -4px 15px rgba(255,255,255,1), inset 4px 4px 15px rgba(255,255,255,1);
+                }
+
+
+.experience .sectionheading h2 {
+    padding-bottom: 30px;
+}
+
+.experience .experienceContent {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    transform-style: preserve-3d;
+    perspective: 500px;
+}
+
+    .experience .experienceContent:hover .box {
+        transform: rotateY(20deg);
+    }
+
+    .experience .experienceContent .box:hover ~ .box { /*All elements to the right turn opposite way*/
+        transform: rotateY(-20deg);
+    }
+
+    .experience .experienceContent .box:hover {
+        transform: rotateY(0deg) scale(1.25);
+        z-index: 1;
+    }
+
+
+    .experience .experienceContent .box {
+        max-width: 25%;
+        text-align: center;
+        padding: 10px 10px;
+        background-color: black;
+        margin: 0 10px;
+        color: white;
+        box-shadow: -6px -6px 20px rgba(255,255,255,1), 6px 6px 20px rgba(255,255,255,1);
+        font-size: 12px;
+        transform-style: preserve-3d;
+        border-radius: 5px;
+    }
+
+        .experience .experienceContent .box .imgBx {
+            top: 0;
+            left: 0;
+        }
+
+            .experience .experienceContent .box .imgBx img {
+                object-fit: cover;
+                max-width: 90%;
+                margin-bottom: 20px;
+            }
+
+    .experience .experienceContent .imgBxText h2 {
+        font-size: 23px;
+    }
+
+    .experience .experienceContent .imgBxText h4 {
+        font-size: 14px;
+    }
+
+.contact {
+    background: black;
+}
+
+    .contact .heading {
+        color: white;
+    }
+
+.contactInfo {
+    min-width: 40%;
+}
+
+.contactInfoBx {
+    position: relative;
+}
+
+    .contactInfoBx .box {
+        position: relative;
+        padding: 20px 0;
+        display: flex;
+    }
+
+        .contactInfoBx .box .icon {
+            display: flex;
+            font-size: 24px;
+            align-items: center;
+            justify-content: center;
+            max-width: 20px;
+            padding-top: 4px;
+        }
+
+.box .text {
+    color: white;
+    margin-left: 40px;
+    margin-top: -27px;
+    margin-bottom: 20px;
+    word-wrap: break-word
+}
+
+    .box .text h4 {
+        font-size: 20px;
+    }
+
+.fa-map-marker,
+.fa-phone,
+.fa-envelope-o {
+    color: white;
+    font-size: 20px;
+}
+
+
+
+.formBx {
+    min-width: 60%;
+}
+
+    .formBx form {
+        display: flex;
+        flex-direction: column;
+    }
+
+        .contact .contactInfo h3,
+        .formBx form h3 {
+            color: white;
+            font-size: 20px;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+
+        .formBx form input,
+        .formBx form textarea {
+            margin-bottom: 20px;
+            padding: 15px;
+            font-size: 16px;
+            border: none;
+            background: #222;
+            color: white;
+            resize: none;
+        }
+
+        .formBx form textarea {
+            min-height: 200px;
+        }
+
+        .formBx form input[type="submit"] {
+            max-width: 100px;
+        }
