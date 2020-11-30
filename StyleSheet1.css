@@ -137,14 +137,13 @@ header {
 }
 
 .contentBx {
-   
 }
 
-    .contentImage img {
-        width: 70%;
-        margin: 0px 50px;
-        border-radius: 20px;
-    }
+.contentImage img {
+    width: 70%;
+    margin: 0px 50px;
+    border-radius: 20px;
+}
 
 
 #imagecarousel h3 {
@@ -309,6 +308,10 @@ body .no-padding {
 
 .contactInfo {
     min-width: 40%;
+}
+
+.contact .sectionheading h2{
+    color: white;
 }
 
 .contactInfoBx {
